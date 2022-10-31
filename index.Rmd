@@ -16,3 +16,5 @@ Here is some text. I like the internet. I use
 
 Here's a direct link to the about page: [about](about.html)
 
+## new section
+[Here's](plotly.html) a page with plotly plots
