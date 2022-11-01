@@ -1,5 +1,5 @@
 ---
-title: "My awesome website"
+title: "Xicheng Xie's website"
 output: 
   html_document:
     toc: true
@@ -7,11 +7,12 @@ output:
     theme: cerulean
 ---
 
-# This is Jeff's awesome website
+# Hi everyone
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+![](Xicheng Xie.JPG)
 
-Here is some text. I like the internet. I use 
+
+
 [google](https://www.google.com/) all the time to do data science
 
 Here's a direct link to the about page: [about](about.html)
