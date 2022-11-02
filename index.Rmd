@@ -28,3 +28,4 @@ You can know more about me through my [resume](resume.html)
 [Here's](dashboard_AirBNB.html) a page with `plotly` plots using `flexdashboard` template which is the class code of `ploty and flexdashboard` part in **P8105**.
 
 # Homework 4_problem 2
+[Here's](hw4_problem2.html) the page of problem 2 of homework4, which is using dataset `NY NOAA` to make a dashboard.

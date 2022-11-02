@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "Resume"
       href: resume.html
+    - text: "Homework4_problem2"
+      href: hw4_problem2.html
     - icon: fa-envelope fa-lg
       href: mailto:<xichengxie0224@gmail.com>
     - icon: fa-brands fa-github
