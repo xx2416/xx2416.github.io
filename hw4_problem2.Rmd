@@ -2,7 +2,7 @@
 title: "AirBNB Dashboard"
 output: 
   flexdashboard::flex_dashboard:
-    orientation: rows
+    orientation: columns
     vertical_layout: fill
     source_code: embed
 ---
@@ -11,33 +11,74 @@ output:
 library(tidyverse)
 library(p8105.datasets)
 library(flexdashboard)
+library(ggridges)
 library(plotly)
 ```
 
 ```{r, include = FALSE}
-
+ny_noaa
+ny_noaa_df<-
+  ny_noaa %>%
+  janitor::clean_names() %>% 
+  separate(date,into = c("year","month","day"),sep = '-',convert = TRUE) %>% 
+  mutate(
+    month=month.abb[month],
+    prcp=prcp/10,
+    tmax=as.numeric(tmax)/10,
+    tmin=as.numeric(tmin)/10
+  ) %>% 
+  select(id,year,month,day,everything())
 ```
 
 Column {data-width=650}
 -----------------------------------------------------------------------------------
 
-### Chart A
+### Boxplot of tmin cross every year 
 
 ```{r}
-
+ny_noaa_df %>% 
+  filter(month=="Jan") %>% 
+  group_by(id,year,month) %>% 
+  summarize(mean_tmin=mean(tmin)) %>% 
+  plot_ly(x=~year,y=~mean_tmin,color = ~year,type = "box")
 ```
 
 Column {data-width=350}
 -----------------------------------------------------------------------------------
 
-### Chart B
+### tmax vs tmin for the full dataset
 
 ```{r}
+tmax_tmin_plot<-
+  ny_noaa_df%>% 
+  ggplot(aes(x=tmax,y=tmin))+
+  geom_hex()+
+  labs(
+    x="tmax (degree C)",
+    y="tmin (degree C)",
+    title = "tmax vs tmin for the full dataset",
+    caption="Data from ny_noaa"
+  )
 
+ggplotly(tmax_tmin_plot)
 ```
 
-### Chart C
+### Scatterplot for station with observation times >8 for snowfall >150 mm
 
 ```{r}
+scatterplot_snow<-  
+ny_noaa_df %>%
+  mutate(year=as.factor(year)) %>% 
+  filter(snow>=150 & year %in% c("2008","2010")) %>%
+  group_by(id,year) %>% 
+  summarize(n_obs=n()) %>%
+  filter(n_obs>8) %>%
+  mutate(id=fct_reorder(id,n_obs)) %>% 
+  ggplot(aes(x=id,y=n_obs))+
+  geom_col(aes(fill=year))+
+  theme(axis.text.x = element_text(angle = 90, hjust = 0.5, vjust = 0.5))
+
+ggplotly(scatterplot_snow)
+
 
 ```
