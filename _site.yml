@@ -3,12 +3,12 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
-      href: about.html
+    - text: "Resume"
+      href: resume.html
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
-    - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: mailto:<xichengxie0224@gmail.com>
+    - icon: fa-brands fa-github
+      href: http://github.com/xx2416/
 output:
   html_document:
     theme: cerulean

@@ -1,0 +1,77 @@
+---
+title: "My resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+---
+# EDUCATION
+
+* **Columbia University in the City of New York**, **New York**, **NY**       09/2022
+* *Master of Science. Biostatistics*
+* **Coursework:** Biostatistic Methods, Data Science, Principle of Epidemiology, Probability
+
+* **Shanghai Jiao Tong University (SJTU)**        09/2018 – 06/2022
+* *Bachelor of Science. Resource and Environment Science*
+* **Coursework:** Biostatistics and Experimental Design, Calculus, Linear Algebra, Probability and Statistics, Genetics Lab, Biochemistry, Organic Chemistry, Microbiology Lab, Environmental Biology Engineering
+
+# PUBLICATION
+
+* **Xie XC**, Huang WW, Shen GQ, Yu H, Wang LM. Selection and colorimetric application of ssDNA aptamers against metamitron based on magnetic bead-SELEX. Analytical Methods 2022;14(31):3021-32. DOI: [10.1039/d2ay00566b](https://pubs.rsc.org/en/content/articlehtml/2022/ay/d2ay00566b)
+* **Xie XC**, Li LY, Wang LM, Pan CQ, Zhang DW, Shen GQ. Colourimetric Detection of Tebuconazole in Aqueous Solution Based on an Unmodified Aptamer and the Aggregation of Gold Nanoparticles. Australian Journal of Chemistry 2021;74(12):838-46. DOI: [10.1071/ch21171](https://www.publish.csiro.au/CH/CH21171)
+* •	Shi YZ, **Xie XC**, Wang LM, Wang LZ, Li LY, Yan ZY, Shen GQ. Fluorescent assay for carbendazim determination using aptamer and SYBR Green I. Australian Journal of Chemistry 2022;75(5):345-52. DOI: [10.1071/ch22001](https://www.publish.csiro.au/ch/CH22001)
+
+# PROFESSIONAL EXPERIENCE
+
+### Fresenius Medical Care
+*Data Analyst Intern* 01/2022-05/2022
+
+* Data collection and analysis in inflow and outflow stenoses screening on biophysical experiment
+
+* Applied retrospective cohort study of machining learning model of arteriovenous fistulas sensors
+
+* Helped with dataset construction about hemodynamic conditions for different patients’ degree of stenosis
+
+### Shanghai Hongqiao Sewage Treatment Plant 
+*Research Intern* 05/2020
+
+* Studied the improved treatment process, including multi-stage AAO, coagulation sedimentation, deep bed filter, and ultraviolet disinfection
+
+* Observed and measured the water quality of the deep bed filter
+
+* Detected the digital process, including parameters of the equipment, temperature, monitoring flow rate, UV intensity, etc.
+
+# ACTIVITIES
+
+### Mathematical Contest in Modeling 05/2021-09/2021
+*Project Title: Re-optimizing the Global Food System*
+
+* Responsible for the model establishment and data processing
+
+* Used AHP and entropy methods and set up the Comprehensive Evaluation Model
+
+* Performed a polynomial regression and selected the most impressive R2 result
+
+### MathorCup University Mathematical Contest in Modeling-05/2020
+* Forecasted the demand for new retail target products
+
+* Adopted principal component analysis and calculated the weight; performed multiple linear regression analysis on sales volume to find out the influencing factors
+
+* Established a gray model to predict sales in the future months
+
+* Used fuzzy clustering and identification methods to identify a new skc that has just entered the market
+
+### Shanghai Jiao Tong University Student Union-11/2018-12/2019 
+*Deputy Director, HR Department*
+
+* Managed the registration and application process for campus activities
+
+*Organized the team building events of the Student Union, such as the Student Union sports meetings, student representative conferences, and the Student Union presidential elections
+
+# SKILLS
+* **Languages:** Mandarin (Native); English (Proficient)
+* **Technical Skills:** Python, R, C++, Excel, MATLAB
+
+
+

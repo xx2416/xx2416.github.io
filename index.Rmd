@@ -9,13 +9,22 @@ output:
 
 # Hi everyone
 
-![](Xicheng Xie.JPG)
+<center>
+<img src="Xicheng Xie.JPG" style="width:36%">
+</center>
 
+* Welcome to Xicheng Xie's website. I am a first-year MS student at Columbia University Mailman School of Public Health Department of Biostatistics. I like my major biostatistics. Cleaning data and trying to discover the logic behind the data make me feel satisfied. 
+* I am a sneakerhead, a basketball and workout fanatic. Study, workout, eat, and sleep. I am living an extraordinary boring life, which is very **exciting**.
 
+<center>
+![](IMG_3018.jpg){width=30%}![](IMG_3019.jpg){width=30%}
+</center>
 
-[google](https://www.google.com/) all the time to do data science
+# Know more about me
 
-Here's a direct link to the about page: [about](about.html)
+You can know more about me through my [resume](resume.html)
 
-## new section
-[Here's](plotly.html) a page with plotly plots
+# Course note of P8105
+[Here's](dashboard_AirBNB.html) a page with `plotly` plots using `flexdashboard` template which is the class code of `ploty and flexdashboard` part in **P8105**.
+
+# Homework 4_problem 2
